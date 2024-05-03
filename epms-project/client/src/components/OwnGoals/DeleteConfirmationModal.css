@@ -1,0 +1,36 @@
+/*styling for the popup asking to confirm goal deletion*/
+
+.delete-confirmation-modal {
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 4%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.delete-goal-question {
+  padding-bottom: 3%;
+}
+
+.delete-goal-modal-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.delete-goal-modal-buttons button {
+  margin-right: 4%;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}

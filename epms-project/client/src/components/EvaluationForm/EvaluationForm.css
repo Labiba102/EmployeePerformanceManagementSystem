@@ -1,0 +1,213 @@
+.evaluation-form-main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2%;
+}
+
+.evaluation-form-heading-div {
+  padding-top: 2%;
+  height: 11%;
+}
+
+.evaluation-form-heading {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.evaluation-form-employee-info {
+  border: 1px solid rgb(188, 188, 188);
+  height: 14%;
+  border-radius: 12px;
+  padding: 1%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 2%;
+}
+
+.evaluation-form-employee-info-heading {
+  font-size: 1.05rem;
+  padding-left: 2%;
+  padding-top: 0.25%;
+  background-color: rgb(237, 237, 237);
+  border-radius: 4px;
+  padding-bottom: 0.25%;
+  padding-right: 2%;
+  font-weight: bold;
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.evaluation-form-employee-info-dropdowns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 4%;
+  height: 60%;
+}
+
+.employee-info-dropdown {
+  width: 25%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  background-color: white;
+  color: gray;
+  font-size: 0.85rem;
+}
+
+.evaluation-form-performance-evaluation {
+  border: 1px solid rgb(188, 188, 188);
+  border-radius: 12px;
+  height: auto;
+  padding: 1%;
+}
+
+.evaluation-form-performance-evaluation-heading {
+  font-size: 1.1rem;
+  padding-left: 2%;
+  padding-top: 0.25%;
+  background-color: rgb(237, 237, 237);
+  border-radius: 4px;
+  padding-bottom: 0.25%;
+  padding-right: 2%;
+  font-weight: bold;
+}
+
+.performance-evaluation-ratings-pic {
+  margin-top: 1%;
+}
+
+.performance-evaluation-ratings-pic img {
+  height: 160px;
+  width: 100%;
+}
+
+.evaluation-and-comments-div {
+  display: flex;
+  margin-top: 2%;
+}
+
+.evaluation-form-rating-kpis {
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 70%;
+}
+
+.evaluation-form-comments {
+  width: 30%;
+}
+
+.evaluation-form-rating-question {
+  padding-top: 2%;
+}
+
+.evaluation-form-please-rate {
+  font-weight: 650;
+}
+
+.asterisk {
+  color: red;
+}
+
+.evaluation-form-kpi-score-to-display {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  border-bottom: 1px solid rgb(213, 213, 213);
+  justify-content: flex-end;
+}
+
+.evaluation-form-kpi-score-to-display p {
+  width: 35%;
+}
+
+.kpi-scores-evaluation {
+  font-weight: bold;
+  margin-bottom: 2%;
+  font-size: 1.1rem;
+  margin-right: 11%;
+}
+
+.kpi-item {
+  display: flex;
+  border-bottom: 1px solid rgb(213, 213, 213);
+  margin-bottom: 3%;
+  padding-bottom: 1%;
+}
+
+.evaluation-form-kpis-heading {
+  font-weight: 550;
+  width: 35%;
+}
+
+.checkbox-container {
+  display: inline-block;
+  margin-right: 10%;
+}
+
+.checkbox-container input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.evaluation-form-comments {
+  padding: 1%;
+}
+
+.evaluation-form-comments-heading {
+  padding-top: 2%;
+  font-weight: 650;
+  background-color: rgb(237, 237, 237);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  border-radius: 4px;
+}
+
+.evaluation-form-comments-textarea {
+  border: 1px solid rgb(164, 164, 164);
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 10%;
+  height: 400px;
+  margin-top: 5%;
+}
+
+.submit-evaluation-form-button {
+  color: black;
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+  margin-top: 10%;
+  border: 1px solid rgb(201, 201, 201);
+}
+
+.evaluation-form-comments-disabled {
+  width: 28%;
+}
+
+.evaluation-form-comments-heading-disabled {
+  font-weight: 400;
+  padding-top: 4%;
+  border-radius: 4px;
+  color: gray;
+}
+
+.evaluation-form-comments-textarea-disabled {
+  border: 1px solid rgb(164, 164, 164);
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 5%;
+  height: 400px;
+  color: gray;
+}

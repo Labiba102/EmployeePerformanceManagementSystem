@@ -1,0 +1,114 @@
+/* Styles for homepage */
+.admin-homepage {
+  height: 100vh;
+  margin: 1%;
+  background-color: white;
+}
+
+/* Styles for the header */
+.header {
+  display: flex;
+  margin: 1%;
+  background-color: white; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+
+/* Styles for the logout button */
+.logout-div {
+  margin-left: 20px; /* Adjust margin to separate buttons */
+}
+
+.logout {
+  width: auto; 
+  padding: 10px 30px; 
+  background-color: rgba(22, 187, 178, 1);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for the filter and search bar */
+.filter-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Styles for the department dropdown */
+.department-dropdown {
+  margin: 1%;
+}
+
+/* Styles for the search input */
+.search-input {
+  position: relative;
+}
+
+.search-input input[type="text"] {
+  padding-left: 30px;
+}
+
+.search-input::before {
+  content: '\1F50D';
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2em;
+  color: #888;
+}
+
+/* Styles for the staff list */
+.staff-list {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+/* Styles for the staff table */
+.staff-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styles for the column headings */
+.column-heading {
+  background-color: rgba(22, 187, 178, 255);
+  font-weight: bold;
+}
+
+/* Styles for alternating row colors in the staff list */
+.staff-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styles for the "Make New Account" button */
+.make-account-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 1.6%;
+  width: 20%;
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
+
+.make-account-button button {
+  flex: 1;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  background-color: rgba(22, 187, 178, 1);
+  color: white;
+  font-weight: bold;
+}
+
+/* Styles for the logo */
+.logo img {
+  margin-top: 0%;
+  width: 100px;
+}

@@ -1,0 +1,134 @@
+/* Styling for the edit goal form */
+.edit-goal-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .edit-goal-modal-content {
+    background-color: rgba(22, 188, 178, 255);
+    padding-top: 2%;
+    padding-right: 3.5%;
+    padding-left: 3.5%;
+    padding-bottom: 4%;
+    border-radius: 15px;
+    max-width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    height: 95%;
+    overflow-y: auto;
+  }
+  
+  .blur-background {
+    filter: blur(10px);
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  body.show-modal {
+    overflow: hidden;
+  }
+  
+  .self-goal-form-top {
+    display: flex;
+  }
+  
+  .self-goal-form-title {
+    font-size: 2.2rem;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .self-goal-input {
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+    border: 1px solid #767676;
+    border-radius: 15px;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .self-goal-description-input {
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 12%;
+    padding-right: 3%;
+    box-sizing: border-box;
+    border: 1px solid #767676;
+    border-radius: 15px;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .close-icon {
+    margin-left: auto;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .self-goal-label-description {
+    display: block;
+    margin-bottom: 1%;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 5%;
+  }
+  
+  .self-goal-label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 5%;
+  }
+  
+  .self-goal-button {
+    background-color: white;
+    color: rgba(22, 200, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 35%;
+    display: block;
+    margin-top: 4%;
+  }
+  
+  .self-form-group-quarterly {
+    display: flex;
+    margin-top: 5%;
+  }
+  
+  .self-goal-label-quarterly-description {
+    display: block;
+    margin-bottom: 1%;
+    color: white;
+    font-size: 0.95rem;
+    position: relative;
+  }
+  
+  button:hover {
+    background-color: lightgray;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 0%;
+    margin-top: 0;
+  }
+  

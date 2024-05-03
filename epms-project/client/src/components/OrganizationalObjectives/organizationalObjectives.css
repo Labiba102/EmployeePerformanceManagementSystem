@@ -1,0 +1,73 @@
+.organizational-objectives-container {
+  height: 33%;
+  background-color: white;
+  margin-bottom: 2.5%;
+  border-radius: 12px;
+  border: 1px solid rgb(136, 136, 136);
+  position: relative;
+  overflow-y: auto;
+}
+
+.organizational-objectives {
+  padding-top: 1.5%;
+  padding-left: 2%;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.organizational-goals-headings {
+  display: flex;
+  margin-left: 2%;
+  margin-top: 1%;
+  width: 95%;
+  font-weight: 550;
+  font-size: 0.85rem;
+  flex: 1;
+  padding-top: 0.5%;
+  padding-left: 2%;
+  padding-bottom: 0.5%;
+  background-color: rgb(244, 244, 244);
+  border-radius: 6px;
+  color: rgb(160, 160, 160);
+}
+
+.organizational-goals-ObjectiveID {
+  width: 22%;
+}
+
+.organizational-goals-Name {
+  width: 50%;
+}
+
+.organizational-goals-Status {
+  width: 28%;
+}
+
+.organizational-goal-row {
+  display: flex;
+  margin-left: 2%;
+  margin-top: 0.5%;
+  width: 95%;
+  font-weight: 500;
+  font-size: 0.82rem;
+  flex: 1;
+  padding-top: 0.8%;
+  padding-left: 2%;
+  padding-bottom: 0.75%;
+  color: black;
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+.assigned-count {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  background-color: rgb(252, 245, 235);
+  color: rgb(242, 167, 53);
+  border-color: rgb(245, 223, 191);
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}

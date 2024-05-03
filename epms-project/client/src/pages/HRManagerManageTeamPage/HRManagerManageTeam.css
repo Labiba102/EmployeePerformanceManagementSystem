@@ -1,0 +1,160 @@
+.page-heading {
+  padding-top: 1%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1%;
+}
+
+.subheading-and-button-div {
+  display: flex;
+  /* height: 6%; */
+}
+
+.my-teams-subheading {
+  font-weight: 500;
+  font-size: medium;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.create-new-team-button {
+  width: 20%;
+  /* height: 10%; */
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-right: 2%;
+  background-color: rgb(22, 188, 178);
+}
+
+.create-new-team-button-content {
+  display: flex;
+  margin-right: 0%;
+  margin-left: 7%;
+}
+
+.create-new-team-button-text {
+  color: white;
+}
+
+.create-new-team-button-icon {
+  color: white;
+  margin-top: 2%;
+  margin-right: 3%;
+}
+
+.body-content {
+}
+
+.display-my-teams {
+  display: flex;
+  gap: 5%;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  width: 45%;
+  height: 50%;
+  margin-bottom: 3%;
+}
+
+.team-number {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+
+.team-details {
+  background-color: white;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 4%;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+  /* border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%; */
+}
+
+.proj-manager-div {
+  height: auto;
+  background-color: rgb(2, 92, 95);
+  padding-bottom: 3%;
+  /* color: white; */
+  /* border-top-left-radius: 4%;
+    border-top-right-radius: 4%; */
+}
+
+.proj-manager-heading {
+  color: rgb(22, 188, 178);
+  padding-top: 2%;
+  margin-left: 4%;
+  font-size: 1.05rem;
+  font-weight: 550;
+  width: 40%;
+  /* border-radius: 4%; */
+  /* border-top-left-radius: 4%;
+    border-top-right-radius: 4%; */
+}
+
+.proj-manager-name {
+  color: white;
+  margin-top: 2%;
+  margin-left: 4%;
+  width: 40%;
+}
+
+.proj-manager-email {
+  margin-left: 4%;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 175;
+  padding-bottom: 1.5%;
+  width: 40%;
+}
+
+.delete-team-button {
+  background-color: rgb(22, 188, 178); /* Keep the background transparent */
+  color: rgb(4, 99, 109); /* Set the text color to red */
+  border: none;
+  padding: 8px 2px;
+  border-radius: 4px;
+  margin-right: 4%;
+  cursor: pointer;
+  font-size: 0.9rem;
+  width: 40%;
+}
+
+.delete-team-button:hover {
+  background-color: rgba(
+    189,
+    234,
+    244,
+    0.637
+  ); /* Add a light red background on hover */
+}
+
+.employee-heading {
+  margin-left: 4%;
+  margin-top: 2%;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 1.5%;
+}
+
+.employee-item {
+  font-size: 0.9rem;
+  font-weight: 500;
+  background-color: rgb(233, 251, 250);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 80%;
+}
+
+.employee-name {
+  margin-left: 2%;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-right: 1%;
+}
+
+.employee-email {
+  font-weight: 325;
+}

@@ -1,0 +1,130 @@
+.add-kpi-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.add-kpi-modal-content {
+  background-color: white;
+  width: 35%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  height: 40%;
+  border: 1px solid black;
+}
+
+.show {
+  display: block;
+}
+
+body.show-modal {
+  overflow: hidden;
+}
+
+.add-kpi-modal-top {
+  height: 20%;
+  display: flex;
+  border-bottom: 1px solid #e7e7e7;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 4%;
+  padding-bottom: 1%;
+}
+
+.add-kpi-modal-title {
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.add-kpi-modal-form {
+  height: 60%;
+  padding-top: 6%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid #e7e7e7;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.add-kpi-form-group {
+  margin-bottom: 4%;
+  width: 100%;
+}
+
+.add-kpi-input {
+  width: 65%;
+  border-radius: 0;
+  border: 1px solid #cdcdcd;
+  padding: 1.5%;
+  padding-left: 4%;
+}
+
+.add-kpi-field {
+  color: #767676;
+  font-size: 0.8rem;
+  width: 20%;
+  margin-right: 3%;
+  text-align: right;
+}
+
+.add-kpi-modal-close-icon {
+  margin-left: auto;
+  font-size: 1.3rem;
+  color: gray;
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+.add-kpi-form-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.add-kpi-form-bottom p {
+  margin-bottom: 0;
+  padding-left: 4%;
+}
+
+.close-add-kpi-form {
+  color: rgb(188, 0, 0);
+  padding-left: 4%;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.add-kpi-button {
+  background-color: rgba(22, 188, 178, 255);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  width: 100%;
+  margin-right: 2%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 0%;
+  margin-top: 0;
+}

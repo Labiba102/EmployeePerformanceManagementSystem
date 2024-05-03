@@ -1,0 +1,143 @@
+.homepage {
+  display: flex;
+}
+
+.content1 {
+  width: 65%;
+  height: 100vh;
+  padding-left: 5px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.content1 .button-wrapper {
+  width: 100%;
+}
+
+.content1 .button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.button-wrapper .button-container .hr-manager-buttons {
+  flex: 1;
+  background-color: #104e5d;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 14px;
+  font-size: small;
+  margin-block-end: 0;
+  margin: 0 5px;
+  padding-bottom: 1.75%;
+  padding-top: 1.75%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.content2 {
+  height: 100vh;
+  width: 35%;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.my-quarterly-goals {
+  height: 33%;
+  background-color: white;
+  margin-bottom: 2.5%;
+  border-radius: 12px;
+  border: 1px solid rgb(136, 136, 136);
+  position: relative;
+}
+
+.quarterly-goal-heading {
+  padding-top: 1.5%;
+  padding-left: 2%;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.see-more-quarterly-goals {
+  position: absolute;
+  top: 4%;
+  right: 3%;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.see-more-quarterly-goals:hover {
+  text-decoration: underline;
+}
+
+.configure-forms {
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 12px;
+  background-color: white;
+  height: 38%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.configure-forms-heading {
+  padding-top: 0.5%;
+  padding-left: 5%;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: rgb(237, 237, 237);
+  border-radius: 8px;
+}
+
+.configure-form-text {
+  padding-top: 3%;
+  padding-left: 5%;
+  font-size: 0.75rem;
+  padding-right: 5%;
+  color: rgb(49, 49, 49);
+  height: 35%;
+}
+
+.configure-form-button-img-div {
+  display: flex;
+  padding-left: 4%;
+  justify-content: center;
+  align-items: center;
+  height: 65%;
+}
+
+.configure-feedbackform-button {
+  border-radius: 12px;
+  margin: 0;
+  margin-right: 10%;
+}
+
+.configure-feedbackform-button p {
+  margin: 0;
+  font-size: 0.7rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.configure-feedbackform-button button {
+  height: calc(70% - 5px);
+  width: 100%;
+  padding: 5%;
+  background-color: #e5f2ff;
+  border: 1px solid #a5ccf6;
+}
+
+.feedbacklogo-img {
+  padding-top: 0.1%;
+  width: 100px;
+  margin-left: 5%;
+  height: 50%;
+}

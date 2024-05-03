@@ -1,0 +1,161 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.make-account-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.make-account-container {
+  width: 50%;
+  padding: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+.profile-image-container {
+  width: 30%; /* Adjust the size as needed */
+  margin: 0 auto; /* Center the image horizontally */
+  text-align: center; /* Center the image horizontally */
+  margin-bottom: 3%;
+}
+
+.profile-image-circle {
+  width: 100%; /* Ensure the circle fills the container */
+  height: 0; /* Maintain aspect ratio */
+  padding-bottom: 100%; /* Create a square element */
+  border-radius: 50%; /* Make the circle */
+  position: absolute; /* Position the circle relative to the container */
+  top: 50%; /* Center the circle vertically */
+  left: 50%; /* Center the circle horizontally */
+  transform: translate(-50%, -50%); /* Center the circle precisely */
+}
+
+.profile-image {
+  width: 80%; /* Ensure the image fills the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+  position: relative; /* Ensure it appears above the circle */
+  margin-top: 10%;
+  margin-bottom: 10%;
+  object-fit: cover;
+}
+
+/* .camera-icon {
+  position: absolute;
+  font-size: 1.5rem;
+  color: rgb(108, 108, 108);
+} */
+
+.make-account-title {
+  text-align: center;
+  color: #333;
+}
+
+.make-account-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.make-account-form-group {
+  margin-bottom: 15px;
+}
+
+.make-account-label {
+  font-weight: bold;
+}
+
+.make-account-input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.make-account-form-group select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.make-account-signup-button {
+  margin-top: 15px;
+}
+
+.make-account-signup-button button {
+  width: 30%;
+  padding: 10px;
+  background-color: #1abc9c;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.make-account-signup-button button:hover {
+  background-color: #34a28c;
+}
+
+.title-make-account {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-make-account-icon {
+  font-size: 1.5rem;
+}
+
+.make-account-error-message {
+  color: red;
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.success-message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.make-account-success-message {
+  margin-left: 5px;
+}
+
+.make-account-success-message {
+  color: green;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.make-account-success-icon {
+  color: green;
+  margin-right: 1.5%;
+  font-size: 1.3rem;
+}

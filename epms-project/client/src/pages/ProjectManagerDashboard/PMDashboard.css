@@ -1,0 +1,109 @@
+.homepage {
+  display: flex;
+}
+
+.content1 {
+  width: 65%;
+  height: 100vh;
+  padding-left: 5px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.content1 .button-wrapper {
+  width: 100%;
+}
+
+.content1 .button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.content1 .button-container button {
+  flex: 1;
+  background-color: #104e5d;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 14px;
+  font-size: small;
+  margin-block-end: 0;
+  margin: 0 5px;
+  padding-bottom: 1.75%;
+  padding-top: 1.75%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.content2 {
+  height: 100vh;
+  width: 35%;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.my-quarterly-goals {
+  height: 33%;
+  background-color: white;
+  margin-bottom: 2.5%;
+  border-radius: 12px;
+  border: 1px solid rgb(136, 136, 136);
+  position: relative;
+}
+
+.quarterly-goal-heading {
+  padding-top: 1.5%;
+  padding-left: 2%;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.see-more-quarterly-goals {
+  position: absolute;
+  top: 4%;
+  right: 3%;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.see-more-quarterly-goals:hover {
+  text-decoration: underline;
+}
+
+.review-status {
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 12px;
+  background-color: white;
+  height: 38%;
+  padding-left: 1%;
+  padding-right: 1%;
+  align-items: center;
+}
+
+.timeline-heading {
+  padding-top: 3%;
+  padding-left: 4%;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.review-status-heading {
+  padding-top: 3%;
+  padding-left: 4%;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 3%;
+}
+
+.pie-chart-container {
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 100%;
+  height: 75%;
+}

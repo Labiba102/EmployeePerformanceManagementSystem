@@ -1,0 +1,71 @@
+/*this includes styling of all the common components in the dashboard of all users*/
+
+/*following is the css for main display.js*/
+.main-display {
+  padding-bottom: 0%;
+  height: 9%;
+}
+
+.dashboard-heading {
+  font-size: 1.3rem;
+  font-weight: bold;
+  height: 6%;
+  margin-bottom: 0;
+}
+
+.dashboard-main-heading {
+  display: flex;
+  align-items: center;
+}
+
+.morning-header {
+  color: gray;
+  font-style: italic;
+  margin-bottom: 0%;
+}
+
+/* following is the css for welcomeBox.js*/
+.green-box {
+  height: 20%;
+  background-color: rgba(22, 188, 178, 255);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 1%;
+  padding-bottom: 0.5%;
+}
+
+.welcome-text {
+  flex: 1;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.welcome-pic {
+  width: 100%;
+  max-width: 25%;
+  align-self: flex-end;
+  padding-right: 1%;
+  height: 100%;
+}
+
+/*following is the css for quotebox.js*/
+.quote-box {
+  background-color: rgba(22, 188, 178, 255);
+  border-radius: 10px;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 3%;
+}

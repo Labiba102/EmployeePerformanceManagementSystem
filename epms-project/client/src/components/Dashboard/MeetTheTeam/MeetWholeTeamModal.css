@@ -1,0 +1,94 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+.mtt-modal-content {
+    background-color: rgba(8,39,46);
+    padding-top: 2%;
+    padding-right: 3.5%;
+    padding-left: 3.5%;
+    padding-bottom: 4%;
+    border-radius: 15px;
+    max-width: 45%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    overflow-y: auto;
+}
+
+.modal-header {
+    color: white;
+
+}
+
+.mtt-modal-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mtt-member-info {
+    width: 32%;
+}
+
+.row {
+    width: 100%
+}
+
+blur-background {
+    filter: blur(10px);
+}
+  
+.show {
+    display: block;
+}
+
+.mtt-close-icon {
+    margin-left: auto;
+    font-size: 1.5rem;
+    color: white;
+}
+  
+body.show-modal {
+    overflow: hidden;
+}
+
+
+.mtt-team-member-image-modal {
+    text-align: center;
+}
+
+.mtt-image-properties-modal {
+    width:120px;
+    height: 120px;
+  }
+
+.mtt-member-details-modal {
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 0.8;
+}
+
+.mtt-member-name-modal {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+
+.mtt-member-role-modal {
+    font-size: 0.8rem;
+    color: rgb(22,188,178);
+    font-weight: 500;
+}
+

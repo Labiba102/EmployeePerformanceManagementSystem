@@ -1,0 +1,103 @@
+.important-timelines {
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 12px;
+  background-color: white;
+  margin-top: 5%;
+  height: 33%;
+  margin-bottom: 5%;
+  position: relative;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  overflow-y: auto;
+}
+
+.timeline-heading {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  font-weight: bold;
+  font-size: 0.95rem;
+  background-color: rgb(244, 244, 244);
+  border-radius: 8px;
+  margin-bottom: 4%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 1%;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+
+.important-timelines-goal-date {
+  margin-left: 3%;
+  width: 40%;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 650;
+  display: flex;
+}
+
+.important-timelines-date-and-time {
+  margin-left: 8%;
+}
+
+.important-timelines-time {
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(188, 188, 188);
+}
+
+.important-timelines-separator {
+  margin-top: 6px;
+  width: 1px;
+  height: 30px;
+  background-color: rgb(227, 227, 227);
+}
+
+.important-timelines-goal-title {
+  width: 50%;
+  text-align: left;
+  word-wrap: break-word;
+  font-size: 0.85rem;
+  padding-left: 3%;
+  font-weight: 600;
+  font-weight: 650;
+}
+
+.important-timelines-circle-line {
+    width: 22.5%;
+    height: 3%;
+}
+
+.important-timelines-goal-image {
+  margin-right: 1px;
+}
+
+.first-timeline-item {
+  color: rgb(38, 125, 112);
+}
+
+.second-timeline-item {
+  color: rgb(237, 116, 36);
+}
+
+.third-timeline-item {
+  color: rgb(250, 115, 122);
+}
+
+.timeline-circle {
+  display: inline-block;
+  width: 34.6%;
+  height: 10px;
+  border-radius: 50%;
+  /* margin-top: 3%; */
+  margin-right: 8%;
+  border: 2px solid;
+  /* margin-bottom: 1%; */
+}
